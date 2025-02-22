@@ -2,22 +2,18 @@ import React from 'react'
 import WhyChooseCard from './WhyChooseCard'
 
 const WhyChoose = () => {
-  return <div className='pt-16 pb-16'>
-    <h1 className='mt-6 text-2xl md:text-3xl capitalize font-bold text-center'>Why you choose this application</h1>
-    <div className='mt-20 grid w-[90%] mx-auto grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-12'>
+  return <div className='pt-16 pb-16' id='Servicios'>
+    <h1 className='mt-6 text-2xl md:text-3xl capitalize font-bold text-center'>Qué ofrecemos:</h1>
+    <div className='mt-20 grid w-[90%] mx-auto grid-cols-1 md:grid-cols-2 gap-12'>
         {/* Campos WhyChoose */}
+        
         <div>
-           <WhyChooseCard image="/images/i1.png" title="Create Free Account" linkText="Start Earning"/>
+           <WhyChooseCard image="/images/servicio.png" title="Inspección de Ascensores" body='Inspección de aparatos de elevación de velocidad superior a 0,15 m/s, según ITC AEM 1 "Ascensores"'/>
         </div>
         <div>
-           <WhyChooseCard image="/images/i2.png" title="Monitor User Analytics" linkText="Sign up your store"/>
+           <WhyChooseCard image="/images/servicio.png" title="Inspección de Ascensores de Velocidad Reducida"body='Inspección de aparatos de elevación de velocidad inferior a 0,15 m/s, según ITC AEM 1 "Ascensores"'/>
         </div>
-        <div>
-           <WhyChooseCard image="/images/i3.png" title="Safe &  Trusted" linkText="Get The App"/>
-        </div>
-        <div>
-           <WhyChooseCard image="/images/i4.png" title="Fast Customer Support" linkText="Learn More"/>
-        </div>
+        
     </div>
   </div>
   

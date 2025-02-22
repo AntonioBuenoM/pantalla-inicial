@@ -17,7 +17,7 @@ const MovileNav = ({closeNav, showNav}:Props) => {
             {/*overplay */}
             <div className={`fixed ${navOpen} inset-0 transform transition-all  duration-500 z-[10000] bg-black opacity-70 w-full h-screen`}></div>
             {/**NavLinks */}
-            <div className={`text-white ${navOpen} fixed justify-center flex flex-col h-full transform transition-all duration-500 delay-300 w-[80%] sm:w-[60%] bg-indigo-900 space-y-6 z-[10006]`}>
+            <div className={`text-white ${navOpen} fixed justify-center flex flex-col h-full transform transition-all duration-500 delay-300 w-[80%] sm:w-[60%] space-y-6 z-[10006]`} style={{ backgroundColor: "#8cada4" }}>
             {navLinks.map((link)=>{
                         return <Link href={link.url} key={link.id}>
                             <p className="nav__link text-white text-[20px] ml-12 border-b-[1.5px] pb-1 border-white sm:text-[30px]">{link.label}</p>

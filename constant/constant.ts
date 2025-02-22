@@ -1,23 +1,23 @@
 export const navLinks = [
     {
         id:1,
-        url:'#',
+        url:'#Home',
         label:"Inicio"
     },
     {
         id:2,
-        url:'#',
-        label:"Sobre Nosotros"
+        url:'#Servicios',
+        label:"Qué ofrecemos"
     },
     {
         id:3,
-        url:'#',
-        label:"Servicios"
+        url:'#Nosotros',
+        label:"Sobre Nosotros"
     },
     {
         id:4,
-        url:'#',
-        label:"Contactos"
+        url:'#Contacto',
+        label:"Contacto"
     },
     
 ];
