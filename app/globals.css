@@ -3,6 +3,11 @@
 @tailwind utilities;
 
 
+/* Agregar scroll suave a toda la página */
+html {
+    scroll-behavior: smooth;
+  }
+
 @layer utilities {
     .nav__link {
         @apply relative text-base font-medium w-fit block after:block after:content-[''] after:absolute after:h-[3px] 

@@ -4,7 +4,7 @@ import React from 'react'
 const Hero = () => {
   return (
     <div className='w-full pt-[4vh] md:pt-[12vh] h-screen bg-[#f7f6fb]' id='Home' >
-        <div className='flex justify-center flex-col w-[90%]  h-full mx-auto' style={{ backgroundImage: "url('/images/fondo.png')" }}>
+        <div className='flex justify-center flex-col w-[90%]  h-full mx-auto' style={{ backgroundImage: "url('/images/fondo.jpg')" }}>
             <div className='grid grid-cols-1 items-center gap-12'>
                 {/*Text content */}
                 <div>
